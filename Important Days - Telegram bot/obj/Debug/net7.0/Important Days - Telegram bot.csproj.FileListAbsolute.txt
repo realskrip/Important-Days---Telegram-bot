@@ -1,0 +1,18 @@
+C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Important Days - Telegram bot.exe
+C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Important Days - Telegram bot.deps.json
+C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Important Days - Telegram bot.runtimeconfig.json
+C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Important Days - Telegram bot.dll
+C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Important Days - Telegram bot.pdb
+C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Telegram.Bot.dll
+C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\Important Days - Telegram bot.csproj.AssemblyReference.cache
+C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\Important Days - Telegram bot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\Important Days - Telegram bot.AssemblyInfoInputs.cache
+C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\Important Days - Telegram bot.AssemblyInfo.cs
+C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\Important Days - Telegram bot.csproj.CoreCompileInputs.cache
+C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\Important Days - Telegram bot.csproj.CopyComplete
+C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\Important Days - Telegram bot.dll
+C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\refint\Important Days - Telegram bot.dll
+C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\Important Days - Telegram bot.pdb
+C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\Important Days - Telegram bot.genruntimeconfig.cache
+C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\ref\Important Days - Telegram bot.dll
