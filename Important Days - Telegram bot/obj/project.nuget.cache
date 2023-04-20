@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "EJLNz2ny8g9rVpXEYX4X764AlBGARAoANKgiFsfTlVrzFfQBcb+EAJ1w71GDPqJnA4uNJPgsfn/RSXwB6/hOgg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\skrip\\OneDrive\\Desktop\\Important Days - Telegram bot\\Important Days - Telegram bot\\Important Days - Telegram bot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\skrip\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\skrip\\.nuget\\packages\\telegram.bot\\18.0.0\\telegram.bot.18.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
