@@ -40,9 +40,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "telegram.bot": {
               "target": "Package",
-              "version": "[18.0.0, )"
+              "version": "[19.0.0, )"
             }
           },
           "imports": [
