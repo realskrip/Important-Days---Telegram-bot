@@ -12,7 +12,10 @@ namespace Important_Days___Telegram_bot
                 if (mes.Text.ToLower().Contains("/info") || mes.Text.ToLower().Contains("/start"))
                 {
                     await bot.SendTextMessageAsync(mes.Chat.Id, "Список команд:\n" +
-                        "1. /info - показать список команд;");
+                        "1. /info - показать список команд;\n" +
+                        "2. /add - добавить событие;\n" +
+                        "3. /show - показать событие;\n" +
+                        "4. /delete - удалить событие;\n");
                     return;
                 }
             }

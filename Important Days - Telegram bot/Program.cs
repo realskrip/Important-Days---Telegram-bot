@@ -3,7 +3,7 @@ using Telegram.Bot.Types;
 
 namespace Important_Days___Telegram_bot
 {
-    internal class Program
+    class Program
     {
         static void Main()
         {
