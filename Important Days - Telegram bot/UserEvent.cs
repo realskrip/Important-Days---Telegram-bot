@@ -147,5 +147,70 @@ namespace Important_Days___Telegram_bot
                 }
             }
         }
+
+        public async void ShowDeleteEventRef(Message mes, ITelegramBotClient bot)
+        {
+            if (mes.Text != null)
+            {
+                if (mes.Text.ToLower().Contains("/delete"))
+                {
+                    await bot.SendTextMessageAsync(mes.Chat.Id, "Для того, чтобы удалить событие, введите:\n" +
+                        "delete:номер события из вашего списка /show\n" +
+                        "\n" +
+                        "Например:\n" +
+                        "delete:12\n");
+                    return;
+                }
+            }
+        }
+
+        public async void DeleteEvent(Message mes, ITelegramBotClient bot)
+        {
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                string eventNumberString;
+                int eventNumber;
+
+                char[] trim = new char[] { 'd', 'e', 'l', 'e', 't', 'e', ':' };
+                List<UserEventModel> userEvents = db.userEvents.Where(e => e.userId == mes.Chat.Id).ToList();
+
+                if (userEvents != null)
+                {
+                    if (userEvents.Count <= 0)
+                    {
+                        await bot.SendTextMessageAsync(mes.Chat.Id, "Вы еще не добавляли событий!");
+                        return;
+                    }
+                    else
+                    {
+                        if (mes.Text != null)
+                        {
+                            eventNumberString = mes.Text;
+                            eventNumberString = eventNumberString.TrimStart(trim);
+
+                            if (int.TryParse(eventNumberString, out eventNumber) == false)
+                            {
+                                await bot.SendTextMessageAsync(mes.Chat.Id, "Номер события введен некорректно! Попробуйте еще раз.");
+                                return;
+                            }
+                            else
+                            {
+                                if (userEvents.Count < eventNumber)
+                                {
+                                    await bot.SendTextMessageAsync(mes.Chat.Id, "Номер события введен некорректно! Попробуйте еще раз.");
+                                    return;
+                                }
+
+                                db.userEvents.Remove(userEvents[eventNumber - 1]);
+                                db.SaveChanges();
+
+                                await bot.SendTextMessageAsync(mes.Chat.Id, "Событие удалено.");
+                                return;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }

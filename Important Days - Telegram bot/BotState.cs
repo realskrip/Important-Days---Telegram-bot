@@ -29,6 +29,14 @@ namespace Important_Days___Telegram_bot
                 {
                     userEvent.ShowEvents(mes, bot);
                 }
+                else if (mes.Text.ToLower().Contains("/delete"))
+                {
+                    userEvent.ShowDeleteEventRef(mes, bot);
+                }
+                else if (initializationEvent.initializationDeleteEvent(mes, bot) == true)
+                {
+                    userEvent.DeleteEvent(mes, bot);
+                }
                 else
                 {
                     await bot.SendTextMessageAsync(mes.Chat.Id, "Я не знаю такой команды! Для того, чтобы просмотреть список доступных команд, введите /info");

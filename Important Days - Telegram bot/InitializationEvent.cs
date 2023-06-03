@@ -24,5 +24,26 @@ namespace Important_Days___Telegram_bot
             }
             return false;
         }
+
+        public bool initializationDeleteEvent(Message mes, ITelegramBotClient bot)
+        {
+            if (mes.Text != null)
+            {
+                char[] initializationEvent = new char[7];
+                string? initializationEventString;
+
+                for (int i = 0; i <= 6; i++)
+                {
+                    initializationEvent[i] = mes.Text[i];
+                }
+                initializationEventString = new string(initializationEvent);
+
+                if (initializationEventString.ToLower().Contains("delete:"))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }
