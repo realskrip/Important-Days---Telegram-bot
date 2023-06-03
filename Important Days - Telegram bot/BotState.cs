@@ -9,7 +9,7 @@ namespace Important_Days___Telegram_bot
         {
             Info info = new Info();
             UserEvent userEvent = new UserEvent();
-            InitializationAddEvent initializationAddEvent = new InitializationAddEvent();
+            InitializationEvent initializationEvent = new InitializationEvent();
 
             if (mes.Text != null)
             {
@@ -21,9 +21,9 @@ namespace Important_Days___Telegram_bot
                 {
                     userEvent.ShowAddEventRef(mes, bot);
                 }
-                else if (initializationAddEvent.validationAddEvent(mes, bot) == true)
+                else if (initializationEvent.initializationAddEvent(mes, bot) == true)
                 {
-                    userEvent.ParseEvent(mes, bot);
+                    userEvent.AddEvent(mes, bot);
                 }
                 else
                 {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Important_Days___Telegram_bot
+namespace Important_Days___Telegram_bot.Models
 {
     public class UserEventModel
     {

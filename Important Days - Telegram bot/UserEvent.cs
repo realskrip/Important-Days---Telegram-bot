@@ -1,10 +1,19 @@
 ﻿using Telegram.Bot.Types;
 using Telegram.Bot;
+using Important_Days___Telegram_bot.Models;
 
 namespace Important_Days___Telegram_bot
 {
     public class UserEvent
     {
+        DateTime eventDate;
+        DateTime today;
+        string? eventName;
+        string? eventDateString;
+        string? userEvent;
+        char[]? date;
+        char[]? name;
+
         public async void ShowAddEventRef(Message mes, ITelegramBotClient bot)
         {
             if (mes.Text != null)
@@ -23,18 +32,10 @@ namespace Important_Days___Telegram_bot
             }
         }
 
-        public async void ParseEvent(Message mes, ITelegramBotClient bot)
+        public async void AddEvent(Message mes, ITelegramBotClient bot)
         {
-            DateTime eventDate;
-            DateTime today = DateTime.Today;
-
-            string eventName;
-            string eventDateString;
-            string? userEvent;
+            today = DateTime.Today;
             userEvent = mes.Text;
-
-            char[] date;
-            char[] name;
 
             UserEventModel eventModel = new UserEventModel();
 
@@ -99,6 +100,7 @@ namespace Important_Days___Telegram_bot
                 if (eventName.Length <= 0)
                 {
                     await bot.SendTextMessageAsync(mes.Chat.Id, "Вы не ввели имя события! Попробуйте еще раз.");
+                    return;
                 }
 
                 // Writing event to the database

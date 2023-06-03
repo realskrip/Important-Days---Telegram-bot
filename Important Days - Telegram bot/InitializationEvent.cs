@@ -1,0 +1,28 @@
+﻿using Telegram.Bot.Types;
+using Telegram.Bot;
+
+namespace Important_Days___Telegram_bot
+{
+    class InitializationEvent
+    {
+        public bool initializationAddEvent(Message mes, ITelegramBotClient bot)
+        {
+            if (mes.Text != null)
+            {
+                char[] initializationEvent = new char[4];
+                string? initializationEventString;
+                for (int i = 0; i <= 3; i++)
+                {
+                    initializationEvent[i] = mes.Text[i];
+                }
+                initializationEventString = new string(initializationEvent);
+
+                if (initializationEventString.ToLower().Contains("add:"))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+    }
+}

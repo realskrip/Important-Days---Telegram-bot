@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Important_Days___Telegram_bot.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Important_Days___Telegram_bot
 {
