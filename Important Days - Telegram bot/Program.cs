@@ -15,13 +15,13 @@ namespace Important_Days___Telegram_bot
 
         async static Task Update(ITelegramBotClient botClient, Update update, CancellationToken token)
         {
-            Info info = new Info();
+            BotState action = new BotState();
 
             var message = update.Message;
 
-            if (message.Text != null)
+            if (message != null && message.Text != null)
             {
-                info.ShowInfo(message, botClient);
+                action.Action(message, botClient);
             }
         }
 
