@@ -119,5 +119,33 @@ namespace Important_Days___Telegram_bot
 
             return;
         }
+
+        public async void ShowEvents(Message mes, ITelegramBotClient bot)
+        {
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                List<UserEventModel> userEvents = db.userEvents.Where(e => e.userId ==  mes.Chat.Id).ToList();
+                string outputEvents = "Ваши события\n";
+
+                if (userEvents != null)
+                {
+                    if (userEvents.Count <= 0)
+                    {
+                        await bot.SendTextMessageAsync(mes.Chat.Id, "Вы еще не добавляли событий!");
+                        return;
+                    }
+                    else
+                    {
+                        for (int i = 0; i < userEvents.Count; i++)
+                        {
+                            outputEvents += i + 1 + ". " + userEvents[i].eventName + "  " + $"{userEvents[i].eventDate:d}" + "\n";
+                        }
+
+                        await bot.SendTextMessageAsync(mes.Chat.Id, outputEvents);
+                        return;
+                    }
+                }
+            }
+        }
     }
 }

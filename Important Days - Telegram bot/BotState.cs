@@ -25,6 +25,10 @@ namespace Important_Days___Telegram_bot
                 {
                     userEvent.AddEvent(mes, bot);
                 }
+                else if (mes.Text.ToLower().Contains("/show"))
+                {
+                    userEvent.ShowEvents(mes, bot);
+                }
                 else
                 {
                     await bot.SendTextMessageAsync(mes.Chat.Id, "Я не знаю такой команды! Для того, чтобы просмотреть список доступных команд, введите /info");
