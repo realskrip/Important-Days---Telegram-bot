@@ -1,5 +1,4 @@
-﻿using Important_Days___Telegram_bot.Models;
-using Telegram.Bot;
+﻿using Telegram.Bot;
 using Telegram.Bot.Types;
 using Timer = System.Timers.Timer;
 
@@ -8,7 +7,7 @@ namespace Important_Days___Telegram_bot
     class Program
     {
         public static ITelegramBotClient? botClient;
-        public static Timer timer = new Timer(3600000);
+        public static Timer timer = new Timer(1000);
 
         static void Main()
         {
@@ -27,48 +26,7 @@ namespace Important_Days___Telegram_bot
 
         private static void Timer_Elapsed(object? sender, System.Timers.ElapsedEventArgs e)
         {
-            Alerts();
-        }
-
-        private static void Alerts()
-        {
-            using (ApplicationContext db = new ApplicationContext())
-            {
-                List<UserEventModel> userEvents = db.userEvents.OrderBy(d => d.eventDate).ToList();
-                
-                foreach (var item in userEvents)
-                {
-                    DateTime weekBefore = item.eventDate.Value.AddDays(-7);
-                    DateTime threeDaysBefore = item.eventDate.Value.AddDays(-3);
-
-                    if (botClient != null)
-                    {
-                        if (weekBefore <= DateTime.Now && item.numberRemainingAlerts == 3)
-                        {
-                            botClient.SendTextMessageAsync(item.userId, "Через 7 дней " + item.eventName);
-
-                            item.numberRemainingAlerts--;
-                            db.userEvents.Update(item);
-                            db.SaveChanges();
-                        }
-                        else if (threeDaysBefore <= DateTime.Now && item.numberRemainingAlerts == 2)
-                        {
-                            botClient.SendTextMessageAsync(item.userId, "Через 3 дней " + item.eventName);
-
-                            item.numberRemainingAlerts--;
-                            db.userEvents.Update(item);
-                            db.SaveChanges();
-                        }
-                        else if (item.eventDate <= DateTime.Now && item.numberRemainingAlerts == 1)
-                        {
-                            botClient.SendTextMessageAsync(item.userId, "Сегодня " + item.eventName);
-
-                            db.userEvents.Remove(item);
-                            db.SaveChanges();
-                        }
-                    }
-                }
-            }
+            Alerts.ShowAlerts();
         }
 
         async static Task Update(ITelegramBotClient botClient, Update update, CancellationToken token)
