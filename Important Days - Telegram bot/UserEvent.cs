@@ -107,6 +107,7 @@ namespace Important_Days___Telegram_bot
                 eventModel.userId = mes.Chat.Id;
                 eventModel.eventName = eventName;
                 eventModel.eventDate = eventDate;
+                eventModel.numberRemainingAlerts = 3;
 
                 using (ApplicationContext db = new ApplicationContext())
                 {

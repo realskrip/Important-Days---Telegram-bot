@@ -9,5 +9,6 @@ namespace Important_Days___Telegram_bot.Models
         public long userId { get; set; }
         public string? eventName { get; set; }
         public DateTime? eventDate { get; set; }
+        public int? numberRemainingAlerts { get; set; }
     }
 }
