@@ -21,7 +21,7 @@ namespace Important_Days___Telegram_bot
                 {
                     userEvent.ShowAddEventRef(mes, bot);
                 }
-                else if (initializationEvent.initializationAddEvent(mes, bot) == true)
+                else if (initializationEvent.initializationAddEvent(mes) == true)
                 {
                     userEvent.AddEvent(mes, bot);
                 }
@@ -33,7 +33,7 @@ namespace Important_Days___Telegram_bot
                 {
                     userEvent.ShowDeleteEventRef(mes, bot);
                 }
-                else if (initializationEvent.initializationDeleteEvent(mes, bot) == true)
+                else if (initializationEvent.initializationDeleteEvent(mes) == true)
                 {
                     userEvent.DeleteEvent(mes, bot);
                 }

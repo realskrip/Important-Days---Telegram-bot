@@ -5,7 +5,7 @@ namespace Important_Days___Telegram_bot
 {
     internal class InitializationEvent
     {
-        internal bool initializationAddEvent(Message mes, ITelegramBotClient bot)
+        internal bool initializationAddEvent(Message mes)
         {
             if (mes.Text != null)
             {
@@ -25,7 +25,7 @@ namespace Important_Days___Telegram_bot
             return false;
         }
 
-        internal bool initializationDeleteEvent(Message mes, ITelegramBotClient bot)
+        internal bool initializationDeleteEvent(Message mes)
         {
             if (mes.Text != null)
             {
