@@ -4,10 +4,10 @@ using Timer = System.Timers.Timer;
 
 namespace Important_Days___Telegram_bot
 {
-    class Program
+    internal class Program
     {
-        public static ITelegramBotClient? botClient;
-        public static Timer timer = new Timer(1000);
+        internal static ITelegramBotClient? botClient;
+        private static Timer timer = new Timer(1000);
 
         static void Main()
         {

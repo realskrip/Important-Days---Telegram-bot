@@ -3,7 +3,7 @@ using Telegram.Bot;
 
 namespace Important_Days___Telegram_bot
 {
-    static class Alerts
+    internal static class Alerts
     {
         internal static void ShowAlerts()
         {

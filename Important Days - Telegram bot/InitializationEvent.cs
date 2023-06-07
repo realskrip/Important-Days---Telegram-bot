@@ -3,9 +3,9 @@ using Telegram.Bot;
 
 namespace Important_Days___Telegram_bot
 {
-    class InitializationEvent
+    internal class InitializationEvent
     {
-        public bool initializationAddEvent(Message mes, ITelegramBotClient bot)
+        internal bool initializationAddEvent(Message mes, ITelegramBotClient bot)
         {
             if (mes.Text != null)
             {
@@ -25,7 +25,7 @@ namespace Important_Days___Telegram_bot
             return false;
         }
 
-        public bool initializationDeleteEvent(Message mes, ITelegramBotClient bot)
+        internal bool initializationDeleteEvent(Message mes, ITelegramBotClient bot)
         {
             if (mes.Text != null)
             {

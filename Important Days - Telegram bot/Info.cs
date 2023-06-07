@@ -3,9 +3,9 @@ using Telegram.Bot;
 
 namespace Important_Days___Telegram_bot
 {
-    public class Info
+    internal class Info
     {
-        public async void ShowInfo(Message mes, ITelegramBotClient bot)
+        internal async void ShowInfo(Message mes, ITelegramBotClient bot)
         {
             if (mes.Text != null)
             {

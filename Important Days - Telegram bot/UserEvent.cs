@@ -4,17 +4,17 @@ using Important_Days___Telegram_bot.Models;
 
 namespace Important_Days___Telegram_bot
 {
-    public class UserEvent
+    internal class UserEvent
     {
-        DateTime eventDate;
-        DateTime today;
-        string? eventName;
-        string? eventDateString;
-        string? userEvent;
-        char[]? date;
-        char[]? name;
+        private DateTime eventDate;
+        private DateTime today;
+        private string? eventName;
+        private string? eventDateString;
+        private string? userEvent;
+        private char[]? date;
+        private char[]? name;
 
-        public async void ShowAddEventRef(Message mes, ITelegramBotClient bot)
+        internal async void ShowAddEventRef(Message mes, ITelegramBotClient bot)
         {
             if (mes.Text != null)
             {

@@ -3,9 +3,9 @@ using Telegram.Bot;
 
 namespace Important_Days___Telegram_bot
 {
-    public class BotState
+    internal class BotState
     {
-        public async void Action(Message mes, ITelegramBotClient bot)
+        internal async void Action(Message mes, ITelegramBotClient bot)
         {
             Info info = new Info();
             UserEvent userEvent = new UserEvent();
