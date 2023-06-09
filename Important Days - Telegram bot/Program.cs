@@ -21,6 +21,7 @@ namespace Important_Days___Telegram_bot
             timer.AutoReset = true;
             timer.Start();
 
+            Console.WriteLine("Important Days - Telegram bot 0.7.4 start  " + DateTime.Now);
             Console.ReadLine();
         }
 
