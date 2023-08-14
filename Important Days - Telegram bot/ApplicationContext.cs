@@ -17,3 +17,6 @@ namespace Important_Days___Telegram_bot
         }
     }
 }
+
+// server=ubuntu-VirtualBox;database=ImportantDaysDB;user=skrip;password=010312
+// server=localhost;database=ImportantDaysDB;user=root;password=010312

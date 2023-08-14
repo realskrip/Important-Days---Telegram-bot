@@ -111,6 +111,8 @@ namespace Important_Days___Telegram_bot
 
                 using (ApplicationContext db = new ApplicationContext())
                 {
+                    Console.WriteLine(eventModel.eventName);
+
                     db.userEvents.Add(eventModel);
                     db.SaveChanges();
                 }

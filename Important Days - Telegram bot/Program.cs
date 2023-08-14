@@ -7,7 +7,7 @@ namespace Important_Days___Telegram_bot
     internal class Program
     {
         internal static ITelegramBotClient? botClient;
-        private static Timer timer = new Timer(1000);
+        private static Timer timer = new Timer(3600000);
 
         static void Main()
         {
@@ -21,7 +21,7 @@ namespace Important_Days___Telegram_bot
             timer.AutoReset = true;
             timer.Start();
 
-            Console.WriteLine("Important Days - Telegram bot 0.7.4 start  " + DateTime.Now);
+            Console.WriteLine("Important Days - Telegram bot 0.7.6 start  " + DateTime.Now);
             Console.ReadLine();
         }
 
