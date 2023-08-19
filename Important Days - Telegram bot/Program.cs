@@ -21,13 +21,17 @@ namespace Important_Days___Telegram_bot
             timer.AutoReset = true;
             timer.Start();
 
-            Console.WriteLine("Important Days - Telegram bot 0.7.6 start  " + DateTime.Now);
+            Log.PrintLogStartInfo();
+            Log.PrintLogWorkingHours();
+            Log.PrintLogDowntime();
             Console.ReadLine();
         }
 
         private static void Timer_Elapsed(object? sender, System.Timers.ElapsedEventArgs e)
         {
             Alerts.ShowAlerts();
+            Log.PrintLogWorkingHours();
+            Log.PrintLogDowntime();
         }
 
         async static Task Update(ITelegramBotClient botClient, Update update, CancellationToken token)
@@ -39,6 +43,7 @@ namespace Important_Days___Telegram_bot
             if (message != null && message.Text != null)
             {
                 action.Action(message, botClient);
+                Log.Downtime = 0;
             }
         }
 

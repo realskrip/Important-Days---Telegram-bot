@@ -21,7 +21,7 @@ namespace Important_Days___Telegram_bot
                 if (mes.Text.ToLower().Contains("/add"))
                 {
                     await bot.SendTextMessageAsync(mes.Chat.Id, "Введите имя и дату события в формате\n" +
-                        "Собыие: add:Название события\n" +
+                        "Событие: add:Название события\n" +
                         "Дата события: дд.мм.гггг\n" +
                         "\n" +
                         "Например:\n" +
@@ -111,7 +111,7 @@ namespace Important_Days___Telegram_bot
 
                 using (ApplicationContext db = new ApplicationContext())
                 {
-                    Console.WriteLine(eventModel.eventName);
+                    Log.PrintLogSpy(eventModel);
 
                     db.userEvents.Add(eventModel);
                     db.SaveChanges();
