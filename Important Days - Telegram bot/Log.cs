@@ -17,16 +17,16 @@ namespace Important_Days___Telegram_bot
 
         internal static void PrintLogStartInfo()
         {
-            using (StreamWriter log = new StreamWriter("log.txt", true))
+            using (StreamWriter log = new StreamWriter("logWorkMonitoring.txt", true))
             {
-                log.WriteLine(DateTime.Now + "\t" + "INFO\t" + "Important Days - Telegram bot 0.8.1 start");
-                Console.WriteLine(DateTime.Now + "\t" + "INFO\t" + "Important Days - Telegram bot 0.8.1 start");
+                log.WriteLine(DateTime.Now + "\t" + "INFO\t" + "Important Days - Telegram bot 0.8.2 start");
+                Console.WriteLine(DateTime.Now + "\t" + "INFO\t" + "Important Days - Telegram bot 0.8.2 start");
             }
         }
 
         internal static void PrintLogWorkingHours()
         {
-            using (StreamWriter log = new StreamWriter("log.txt", true))
+            using (StreamWriter log = new StreamWriter("logWorkMonitoring.txt", true))
             {
                 log.WriteLine(DateTime.Now + "\t" + "WORKINGTIME\t" + "Working hours:\t" + workingHours);
                 Console.WriteLine(DateTime.Now + "\t" + "WORKINGTIME\t" + "Working hours:\t" + workingHours);
@@ -36,7 +36,7 @@ namespace Important_Days___Telegram_bot
 
         internal static void PrintLogDowntime()
         {
-            using (StreamWriter log = new StreamWriter("log.txt", true))
+            using (StreamWriter log = new StreamWriter("logWorkMonitoring.txt", true))
             {
                 log.WriteLine(DateTime.Now + "\t" + "DOWNTIME\t" + "Downtime:\t" + downTime);
                 Console.WriteLine(DateTime.Now + "\t" + "DOWNTIME\t" + "Downtime:\t" + downTime);

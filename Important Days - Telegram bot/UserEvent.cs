@@ -107,7 +107,8 @@ namespace Important_Days___Telegram_bot
                 eventModel.userId = mes.Chat.Id;
                 eventModel.eventName = eventName;
                 eventModel.eventDate = eventDate;
-                eventModel.numberRemainingAlerts = 3;
+                eventModel.numberRemainingAlerts = 1;
+                NumberRemainingAlerts(eventModel);
 
                 using (ApplicationContext db = new ApplicationContext())
                 {
@@ -121,6 +122,18 @@ namespace Important_Days___Telegram_bot
             }
 
             return;
+        }
+
+        private void NumberRemainingAlerts(UserEventModel eventModel)
+        {
+            if (eventDate >= today.AddDays(3))
+            {
+                eventModel.numberRemainingAlerts++;
+            }
+            if (eventDate >= today.AddDays(7))
+            {
+                eventModel.numberRemainingAlerts++;
+            }
         }
 
         public async void ShowEvents(Message mes, ITelegramBotClient bot)

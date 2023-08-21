@@ -7,7 +7,7 @@ namespace Important_Days___Telegram_bot
     internal class Program
     {
         internal static ITelegramBotClient? botClient;
-        private static Timer timer = new Timer(1000); //3600000
+        private static Timer timer = new Timer(3600000); //3600000
 
         static void Main()
         {
