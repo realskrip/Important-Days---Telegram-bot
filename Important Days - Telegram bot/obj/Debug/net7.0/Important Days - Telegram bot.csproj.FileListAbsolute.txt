@@ -53,3 +53,58 @@ C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - T
 C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
 C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
 C:\Users\skrip\OneDrive\Desktop\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Important Days - Telegram bot.exe
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Important Days - Telegram bot.deps.json
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Important Days - Telegram bot.runtimeconfig.json
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Important Days - Telegram bot.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Important Days - Telegram bot.pdb
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Google.Protobuf.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\MySql.Data.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\MySql.EntityFrameworkCore.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\MySqlConnector.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\System.IO.Pipelines.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\Telegram.Bot.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\Important Days - Telegram bot.csproj.AssemblyReference.cache
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\Important Days - Telegram bot.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\Important Days - Telegram bot.AssemblyInfoInputs.cache
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\Important Days - Telegram bot.AssemblyInfo.cs
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\Important Days - Telegram bot.csproj.CoreCompileInputs.cache
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\Important Days - Telegram bot.csproj.CopyComplete
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\Important Days - Telegram bot.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\refint\Important Days - Telegram bot.dll
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\Important Days - Telegram bot.pdb
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\Important Days - Telegram bot.genruntimeconfig.cache
+D:\Projects\Important Days - Telegram bot\Important Days - Telegram bot\obj\Debug\net7.0\ref\Important Days - Telegram bot.dll

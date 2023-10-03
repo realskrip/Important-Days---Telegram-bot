@@ -13,7 +13,7 @@ namespace Important_Days___Telegram_bot
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("server=ubuntu-VirtualBox;database=ImportantDaysDB;user=skrip;password=010312"); //server=localhost server=ubuntu-VirtualBox
+            optionsBuilder.UseMySQL("server=localhost;database=ImportantDaysDB;user=root;password=010312"); //server=localhost server=ubuntu-VirtualBox
         }
     }
 }

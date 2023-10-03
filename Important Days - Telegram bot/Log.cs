@@ -1,4 +1,6 @@
 ﻿using Important_Days___Telegram_bot.Models;
+using Telegram.Bot;
+using Telegram.Bot.Types;
 
 namespace Important_Days___Telegram_bot
 {
@@ -19,8 +21,8 @@ namespace Important_Days___Telegram_bot
         {
             using (StreamWriter log = new StreamWriter("logWorkMonitoring.txt", true))
             {
-                log.WriteLine(DateTime.Now + "\t" + "INFO\t" + "Important Days - Telegram bot 0.8.2 start");
-                Console.WriteLine(DateTime.Now + "\t" + "INFO\t" + "Important Days - Telegram bot 0.8.2 start");
+                log.WriteLine(DateTime.Now + "\t" + "INFO\t" + "Important Days - Telegram bot 0.8.4 start");
+                Console.WriteLine(DateTime.Now + "\t" + "INFO\t" + "Important Days - Telegram bot 0.8.4 start");
             }
         }
 
@@ -52,6 +54,44 @@ namespace Important_Days___Telegram_bot
                 Console.WriteLine(DateTime.Now + "\t" + "DEBUG\t" + "Reset downtime, message delivered");
             }
             downTime = 0;
+        }
+
+        internal async static void SuperUserMessage(ITelegramBotClient bot)
+        {
+            await bot.SendTextMessageAsync(Config.superUserId, DateTime.Now + "\t" + "WORKINGTIME\t" + "Working hours:\t" + workingHours);
+        }
+
+        internal static void DebugResponse(Message message)
+        {
+            using (StreamWriter log = new StreamWriter("log.txt", true))
+            {
+                log.WriteLine(DateTime.Now + "\t" + "DEBUG RESPONSE\t" + "Reply to \"" + message.Text + "\" sent");
+                Console.WriteLine(DateTime.Now + "\t" + "DEBUG RESPONSE\t" + "Reply to \"" + message.Text + "\" sent");
+            }
+        }
+
+        internal static void DebugUpdate (Exception exception)
+        {
+            using (StreamWriter log = new StreamWriter("log.txt", true))
+            {
+                log.Write(DateTime.Now + "\t" + "DEBUG UPDATE\t" + "Update Exception (ответ не получен) ");
+                log.WriteLine($" Исключение: {exception.Message}");
+
+                Console.Write(DateTime.Now + "\t" + "DEBUG UPDATE\t" + "Update Exception (ответ не получен) ");
+                Console.WriteLine($" Исключение: {exception.Message}");
+            }
+        }
+
+        internal static void DebugError(Exception exception)
+        {
+            using (StreamWriter log = new StreamWriter("log.txt", true))
+            {
+                log.Write(DateTime.Now + "\t" + "DEBUG ERROR\t" + "Error Exception (ответ не получен) ");
+                log.WriteLine($" Исключение: {exception.Message}");
+
+                Console.Write(DateTime.Now + "\t" + "DEBUG UPDATE\t" + "Error Exception (ответ не получен) ");
+                Console.WriteLine($" Исключение: {exception.Message}");
+            }
         }
     }
 }

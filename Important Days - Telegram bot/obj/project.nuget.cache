@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cjcynxTDzmgOQ615saLhExegyT/Duk1Z6tvNtCdUzebmvd9Eho3iQpktcNq36nBHd+Fx88oY/ganXJlxm3aAKg==",
+  "dgSpecHash": "VptlE457ZT4DCS6H/mZ8VF+gJ1I/jADKEIvg08mj/+blZDf3ujinCErXMKaJ2uiWO0ducTrgMmpJF35IoX6OaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\skrip\\OneDrive\\Desktop\\Important Days - Telegram bot\\Important Days - Telegram bot\\Important Days - Telegram bot.csproj",
+  "projectFilePath": "D:\\Projects\\Important Days - Telegram bot\\Important Days - Telegram bot\\Important Days - Telegram bot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\skrip\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\skrip\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",

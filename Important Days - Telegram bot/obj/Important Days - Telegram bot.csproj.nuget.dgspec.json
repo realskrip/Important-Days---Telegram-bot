@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\skrip\\OneDrive\\Desktop\\Important Days - Telegram bot\\Important Days - Telegram bot\\Important Days - Telegram bot.csproj": {}
+    "D:\\Projects\\Important Days - Telegram bot\\Important Days - Telegram bot\\Important Days - Telegram bot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\skrip\\OneDrive\\Desktop\\Important Days - Telegram bot\\Important Days - Telegram bot\\Important Days - Telegram bot.csproj": {
+    "D:\\Projects\\Important Days - Telegram bot\\Important Days - Telegram bot\\Important Days - Telegram bot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\skrip\\OneDrive\\Desktop\\Important Days - Telegram bot\\Important Days - Telegram bot\\Important Days - Telegram bot.csproj",
+        "projectUniqueName": "D:\\Projects\\Important Days - Telegram bot\\Important Days - Telegram bot\\Important Days - Telegram bot.csproj",
         "projectName": "Important Days - Telegram bot",
-        "projectPath": "C:\\Users\\skrip\\OneDrive\\Desktop\\Important Days - Telegram bot\\Important Days - Telegram bot\\Important Days - Telegram bot.csproj",
+        "projectPath": "D:\\Projects\\Important Days - Telegram bot\\Important Days - Telegram bot\\Important Days - Telegram bot.csproj",
         "packagesPath": "C:\\Users\\skrip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skrip\\OneDrive\\Desktop\\Important Days - Telegram bot\\Important Days - Telegram bot\\obj\\",
+        "outputPath": "D:\\Projects\\Important Days - Telegram bot\\Important Days - Telegram bot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\skrip\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

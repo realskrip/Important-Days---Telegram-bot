@@ -5,7 +5,7 @@ namespace Important_Days___Telegram_bot
 {
     internal class BotState
     {
-        internal async void Action(Message mes, ITelegramBotClient bot)
+        internal async Task Action(Message mes, ITelegramBotClient bot)
         {
             Info info = new Info();
             UserEvent userEvent = new UserEvent();
